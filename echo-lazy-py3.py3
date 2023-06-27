@@ -13,7 +13,7 @@ def action(datum):
 
 
 def act_lazy(sleep_time_in_seconds):
-	print("I'm lazy, so I'm going to sleep for ( " + sleep_time_in_seconds + " ) ")
+	print("I'm lazy, so I'm going to sleep for ( " + str(sleep_time_in_seconds) + " ) ")
 	time.sleep(sleep_time_in_seconds) # Sleep for 3 minutes seconds
 
 # modelop.metrics
